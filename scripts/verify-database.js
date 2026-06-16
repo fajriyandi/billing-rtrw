@@ -2,14 +2,14 @@
  * Script untuk memverifikasi dan memperbaiki struktur database
  * Menambahkan kolom yang hilang jika diperlukan
  */
-const Database = require('better-sqlite3');
+const { DatabaseSync: Database } = require('node:sqlite');
 const path = require('path');
 
 const dbPath = path.join(__dirname, '../database/billing.db');
 console.log('Memeriksa database:', dbPath);
 
 const db = new Database(dbPath);
-db.pragma('journal_mode = WAL');
+db.exec('PRAGMA journal_mode = WAL');
 
 // Fungsi untuk cek apakah kolom ada
 function columnExists(tableName, columnName) {

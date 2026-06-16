@@ -1,6 +1,6 @@
 const snmp = require('net-snmp');
 const net = require('net');
-const Database = require('better-sqlite3');
+const { DatabaseSync: Database } = require('node:sqlite');
 const path = require('path');
 const winston = require('winston');
 const axios = require('axios');

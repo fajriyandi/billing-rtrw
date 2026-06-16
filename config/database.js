@@ -1,7 +1,7 @@
 /**
  * Inisialisasi database SQLite untuk billing RTRWnet
  */
-const Database = require('better-sqlite3');
+const { DatabaseSync: Database } = require('node:sqlite');
 const path = require('path');
 const fs = require('fs');
 
@@ -13,8 +13,48 @@ const dbPath = path.join(dbDir, 'billing.db');
 let db;
 try {
   db = new Database(dbPath);
-  db.pragma('journal_mode = WAL');
-  db.pragma('foreign_keys = ON');
+  db.exec('PRAGMA journal_mode = WAL');
+  db.exec('PRAGMA foreign_keys = ON');
+
+  // Custom transaction wrapper with savepoint support
+  let transactionDepth = 0;
+  Object.defineProperty(db, 'inTransaction', {
+    get: () => transactionDepth > 0,
+    enumerable: true,
+    configurable: true
+  });
+  db.transaction = function(fn) {
+    return function(...args) {
+      const isNested = transactionDepth > 0;
+      const savepointName = 'sp_' + transactionDepth;
+      
+      if (isNested) {
+        db.exec('SAVEPOINT ' + savepointName);
+      } else {
+        db.exec('BEGIN TRANSACTION');
+      }
+      transactionDepth++;
+      
+      try {
+        const result = fn(...args);
+        transactionDepth--;
+        if (isNested) {
+          db.exec('RELEASE SAVEPOINT ' + savepointName);
+        } else {
+          db.exec('COMMIT');
+        }
+        return result;
+      } catch (error) {
+        transactionDepth--;
+        if (isNested) {
+          db.exec('ROLLBACK TO SAVEPOINT ' + savepointName);
+        } else {
+          db.exec('ROLLBACK');
+        }
+        throw error;
+      }
+    };
+  };
 
   // Menambahkan fungsi waktu lokal untuk SQLite sesuai setting timezone
   db.function('NOW_LOCAL', () => {

@@ -1,0 +1,109 @@
+2026-06-16 22:45:35 info: [settings] Memantau perubahan settings.json
+2026-06-16 22:45:35 info: [Backup] Created backup directory
+2026-06-16 22:45:35 info: [DB] Billing database ready
+2026-06-16 22:45:35 info: [ACS] Bootstrap migration v4 completed — cleared bootstrapped tags for re-bootstrap
+2026-06-16 22:45:36 info: Attempting to start server on configured port: 3001
+2026-06-16 22:45:36 info: Mencoba memulai server pada port 3001...
+2026-06-16 22:45:36 info: [CRON] Semua tugas penjadwalan telah aktif.
+2026-06-16 22:45:36 info: [Backup] Auto backup disabled
+2026-06-16 22:45:36 warn: PERINGATAN: Port 3001 sudah digunakan, mencoba port alternatif...
+2026-06-16 22:45:36 info: Mencoba port alternatif: 4001
+2026-06-16 22:45:36 info: Server berhasil berjalan pada port alternatif 4001
+2026-06-16 22:45:36 info: Environment: development
+2026-06-16 22:45:36 info: [GenieACS] WhatsApp monitoring alert integration loaded
+2026-06-16 22:45:37 info: [WA] Connection Update: connecting
+2026-06-16 22:45:37 info: [WA] QR Code Baru Dihasilkan: 2@WHzaW5Ga+r6v6QuDek...
+2026-06-16 22:46:10 info: [settings] Memantau perubahan settings.json
+2026-06-16 22:46:11 info: [DB] Billing database ready
+2026-06-16 22:46:11 info: Attempting to start server on configured port: 3001
+2026-06-16 22:46:11 info: Mencoba memulai server pada port 3001...
+2026-06-16 22:46:11 info: [CRON] Semua tugas penjadwalan telah aktif.
+2026-06-16 22:46:11 info: [Backup] Auto backup disabled
+2026-06-16 22:46:11 warn: PERINGATAN: Port 3001 sudah digunakan, mencoba port alternatif...
+2026-06-16 22:46:11 info: Mencoba port alternatif: 4001
+2026-06-16 22:46:11 info: Server berhasil berjalan pada port alternatif 4001
+2026-06-16 22:46:11 info: Environment: development
+2026-06-16 22:46:12 info: [GenieACS] WhatsApp monitoring alert integration loaded
+2026-06-16 22:46:12 info: [WA] Connection Update: connecting
+2026-06-16 22:46:13 info: [WA] QR Code Baru Dihasilkan: 2@C/1PmV0wNN1Orczd9E...
+2026-06-16 22:47:13 info: [WA] QR Code Baru Dihasilkan: 2@BxKD5I837IHcYXOQH6...
+2026-06-16 22:47:33 info: [WA] QR Code Baru Dihasilkan: 2@fkMrTyXYaTmX888+qZ...
+2026-06-16 22:47:53 info: [WA] QR Code Baru Dihasilkan: 2@7D7/g/OEmgsKp3buNY...
+2026-06-16 22:48:14 info: [WA] QR Code Baru Dihasilkan: 2@j655wjUCnnfSN68D8Z...
+2026-06-16 22:48:34 info: [WA] QR Code Baru Dihasilkan: 2@YDnTPHszxPpTOlP1/A...
+2026-06-16 22:48:54 info: [WA] Connection Update: close
+2026-06-16 22:48:54 warn: WhatsApp terputus (kode 408). Mencoba reconnect dalam 3 detik...
+2026-06-16 22:48:57 info: [WA] Connection Update: connecting
+2026-06-16 22:48:57 info: [WA] QR Code Baru Dihasilkan: 2@6stJ773ekxrtKnYR4L...
+2026-06-16 22:49:20 info: [settings] Memantau perubahan settings.json
+2026-06-16 22:49:20 info: [DB] Billing database ready
+2026-06-16 22:49:21 info: Attempting to start server on configured port: 3001
+2026-06-16 22:49:21 info: Mencoba memulai server pada port 3001...
+2026-06-16 22:49:21 info: [CRON] Semua tugas penjadwalan telah aktif.
+2026-06-16 22:49:21 info: [Backup] Auto backup disabled
+2026-06-16 22:49:21 warn: PERINGATAN: Port 3001 sudah digunakan, mencoba port alternatif...
+2026-06-16 22:49:21 info: Mencoba port alternatif: 4001
+2026-06-16 22:49:21 info: Server berhasil berjalan pada port alternatif 4001
+2026-06-16 22:49:21 info: Environment: development
+2026-06-16 22:49:22 info: [GenieACS] WhatsApp monitoring alert integration loaded
+2026-06-16 22:49:22 info: [WA] Connection Update: connecting
+2026-06-16 22:49:23 info: [WA] QR Code Baru Dihasilkan: 2@P5zdHxWLtFgzR2Vilr...
+2026-06-16 22:49:54 info: [settings] Memantau perubahan settings.json
+2026-06-16 22:49:54 info: [DB] Billing database ready
+2026-06-16 22:49:55 info: Attempting to start server on configured port: 3001
+2026-06-16 22:49:55 info: Mencoba memulai server pada port 3001...
+2026-06-16 22:49:55 info: [CRON] Semua tugas penjadwalan telah aktif.
+2026-06-16 22:49:55 info: [Backup] Auto backup disabled
+2026-06-16 22:49:55 warn: PERINGATAN: Port 3001 sudah digunakan, mencoba port alternatif...
+2026-06-16 22:49:55 info: Mencoba port alternatif: 4001
+2026-06-16 22:49:55 info: Server berhasil berjalan pada port alternatif 4001
+2026-06-16 22:49:55 info: Environment: development
+2026-06-16 22:49:55 info: [GenieACS] WhatsApp monitoring alert integration loaded
+2026-06-16 22:49:55 info: [WA] Connection Update: connecting
+2026-06-16 22:49:56 info: [WA] QR Code Baru Dihasilkan: 2@MOMV6GC11ugMnhvBG/...
+2026-06-16 22:50:15 info: [settings] Memantau perubahan settings.json
+2026-06-16 22:50:15 info: [DB] Billing database ready
+2026-06-16 22:50:16 info: Attempting to start server on configured port: 3001
+2026-06-16 22:50:16 info: Mencoba memulai server pada port 3001...
+2026-06-16 22:50:16 info: [CRON] Semua tugas penjadwalan telah aktif.
+2026-06-16 22:50:16 info: [Backup] Auto backup disabled
+2026-06-16 22:50:16 info: Server berhasil berjalan pada port 3001
+2026-06-16 22:50:16 info: Environment: development
+2026-06-16 22:50:16 info: [GenieACS] WhatsApp monitoring alert integration loaded
+2026-06-16 22:50:17 info: [WA] Connection Update: connecting
+2026-06-16 22:50:18 info: [WA] QR Code Baru Dihasilkan: 2@RonO8tZYbSWtc3Vua6...
+2026-06-16 22:50:58 error: [CustomerDevice] Error listing devices on Default ACS (External): timeout of 8000ms exceeded
+2026-06-16 22:50:58 error: [CustomerDevice] Error listing devices on stb: timeout of 8000ms exceeded
+2026-06-16 22:50:58 error: [CustomerDevice] Error listing devices on Default ACS (External): timeout of 8000ms exceeded
+2026-06-16 22:50:58 error: [CustomerDevice] Error listing devices on stb: timeout of 8000ms exceeded
+2026-06-16 22:51:06 error: Error getting PPPoE profiles: Tidak bisa konek ke MikroTik 192.168.8.1:8728 (juga sudah coba 8729). Pastikan IP/port benar dan service API (8728) atau API-SSL (8729) aktif di MikroTik.
+2026-06-16 22:51:14 error: [CustomerDevice] Error listing devices on Default ACS (External): timeout of 8000ms exceeded
+2026-06-16 22:51:14 error: [CustomerDevice] Error listing devices on stb: timeout of 8000ms exceeded
+2026-06-16 22:51:14 error: [CustomerDevice] Error listing devices on Default ACS (External): timeout of 8000ms exceeded
+2026-06-16 22:51:14 error: [CustomerDevice] Error listing devices on stb: timeout of 8000ms exceeded
+2026-06-16 22:51:18 info: [WA] QR Code Baru Dihasilkan: 2@J4Ewj4dMqMHhuD4ble...
+2026-06-16 22:51:28 info: [Audit Trail] UPDATE sidebar_settings by admin - admin
+2026-06-16 22:51:30 error: [CustomerDevice] Error listing devices on Default ACS (External): timeout of 8000ms exceeded
+2026-06-16 22:51:30 error: [CustomerDevice] Error listing devices on stb: timeout of 8000ms exceeded
+2026-06-16 22:51:38 info: [WA] QR Code Baru Dihasilkan: 2@AhBBLOj+wOMPQ1Bwg1...
+2026-06-16 22:51:56 info: [Audit Trail] UPDATE sidebar_settings by admin - admin
+2026-06-16 22:51:58 info: [WA] QR Code Baru Dihasilkan: 2@Ib7GZgJOG8GK3LGALn...
+2026-06-16 22:52:18 info: [WA] QR Code Baru Dihasilkan: 2@rpiUSURYgn8Vnjqnfa...
+2026-06-16 22:52:26 error: Error getting active Hotspot sessions:
+2026-06-16 22:52:26 error: Error getting PPPoE secrets: Tidak bisa konek ke MikroTik 192.168.8.1:8728 (juga sudah coba 8729). Pastikan IP/port benar dan service API (8728) atau API-SSL (8729) aktif di MikroTik.
+2026-06-16 22:52:26 error: Error getting active PPPoE sessions: Tidak bisa konek ke MikroTik 192.168.8.1:8728 (juga sudah coba 8729). Pastikan IP/port benar dan service API (8728) atau API-SSL (8729) aktif di MikroTik.
+2026-06-16 22:52:26 error: Error getting Hotspot users:
+2026-06-16 22:52:38 info: [WA] QR Code Baru Dihasilkan: 2@qKjDYpDN8L1r/d7uus...
+2026-06-16 22:52:45 info: [Backup] Database backup created: billing_db_20260616_225245.db (472 KB)
+2026-06-16 22:52:45 info: [Backup] Settings backup created: settings_20260616_225245.json (2 KB)
+2026-06-16 22:52:58 info: [WA] Connection Update: close
+2026-06-16 22:52:58 warn: WhatsApp terputus (kode 408). Mencoba reconnect dalam 3 detik...
+2026-06-16 22:53:01 info: [WA] Connection Update: connecting
+2026-06-16 22:53:02 info: [WA] QR Code Baru Dihasilkan: 2@gw5M/8/TmcdPlkwk8v...
+2026-06-16 22:53:23 error: [CustomerDevice] Error listing devices on Default ACS (External): timeout of 8000ms exceeded
+2026-06-16 22:53:23 error: [CustomerDevice] Error listing devices on stb: timeout of 8000ms exceeded
+2026-06-16 22:53:23 error: [CustomerDevice] Error listing devices on Default ACS (External): timeout of 8000ms exceeded
+2026-06-16 22:53:23 error: [CustomerDevice] Error listing devices on stb: timeout of 8000ms exceeded
+2026-06-16 22:54:02 info: [WA] QR Code Baru Dihasilkan: 2@lAt0y6StUrAPHSmb+D...
+2026-06-16 22:54:22 info: [WA] QR Code Baru Dihasilkan: 2@ELCBmt5X1fiYPOink8...
+2026-06-16 22:54:42 info: [WA] QR Code Baru Dihasilkan: 2@5sHkK5joP4NEDP8wqc...

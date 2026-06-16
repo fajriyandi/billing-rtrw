@@ -3,7 +3,7 @@
  * Run this once to update existing database
  */
 
-const Database = require('better-sqlite3');
+const { DatabaseSync: Database } = require('node:sqlite');
 const path = require('path');
 
 const dbPath = path.join(__dirname, '../database/billing.db');

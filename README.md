@@ -131,7 +131,7 @@ Sistem manajemen ISP yang mengintegrasikan **penagihan**, **GenieACS**, **OLT (S
 
 - **Runtime**: Node.js **≥ 20** (disarankan LTS terbaru 20.x)
 - **Backend**: Express.js
-- **Database**: SQLite lewat **better-sqlite3** (file utama: `database/billing.db` — dibuat/dimigrasi otomatis saat pertama jalan)
+- **Database**: SQLite lewat built-in **node:sqlite** (file utama: `database/billing.db` — dibuat/dimigrasi otomatis saat pertama jalan)
 - **Tampilan**: EJS, Bootstrap 5, Bootstrap Icons
 - **Peta**: Leaflet + tile OpenStreetMap / satelit (Google hybrid) di panel admin & teknisi
 - **Integrasi**: GenieACS REST API, MikroTik RouterOS API, SNMP (`net-snmp`) untuk OLT, Baileys (WhatsApp), bot Telegram (opsional), gateway pembayaran (sesuai konfigurasi), parsing spreadsheet (**xlsx**) untuk impor data

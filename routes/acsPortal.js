@@ -46,7 +46,7 @@ const axios = {
     }
 };
 
-// Helper for DB queries (using better-sqlite3)
+// Helper for DB queries
 function getACSServers(id = null) {
     if (isBuiltinAcsEnabled()) {
         const builtinServer = {
@@ -77,11 +77,11 @@ function getACSServers(id = null) {
     if (id && id !== 'all') {
         query += ' WHERE id = ?';
         params.push(id);
-        const row = db.prepare(query).get(params);
+        const row = db.prepare(query).get(...params);
         return row ? [row] : [];
     }
     
-    const rows = db.prepare(query).all(params);
+    const rows = db.prepare(query).all(...params);
     return legacyServer ? [legacyServer, ...rows] : rows;
 }
 

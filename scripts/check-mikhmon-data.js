@@ -2,7 +2,7 @@
  * Script untuk memeriksa data Mikhmon di database
  */
 const path = require('path');
-const Database = require('better-sqlite3');
+const { DatabaseSync: Database } = require('node:sqlite');
 
 const dbPath = path.join(__dirname, '../database/billing.db');
 const db = new Database(dbPath);
